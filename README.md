@@ -9,7 +9,7 @@ This is a simple packet sniffer written in Python. It uses raw sockets to listen
 
 ## Usage
 
-1. Run the script with administrator privileges (required for using raw sockets). On Windows, you can do this by right-clicking on the Command Prompt and selecting "Run as administrator". On Unix-based systems, use the `sudo` command.
+1. Run the packetsniffer.py script with administrator privileges (required for using raw sockets). On Windows, you can do this by right-clicking on the Command Prompt and selecting "Run as administrator". On Unix-based systems, use the `sudo` command. Ensure ip_header.py is in the same directory or you modify the import in packetsniffer.py
 
 2. The script will start listening for IP packets and log the protocol, source IP address, and destination IP address of each packet.
 
